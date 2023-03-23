@@ -1,0 +1,4 @@
+select a.*
+from a
+left join b on a.key = b.key
+where b.key is null
