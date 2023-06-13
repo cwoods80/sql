@@ -1,0 +1,8 @@
+--Check Current Database
+SELECT DB_NAME()
+
+--List Databases
+select name from sys.databases
+--or use
+Sp_databases
+
